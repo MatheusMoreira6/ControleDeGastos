@@ -1,0 +1,201 @@
+body {
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 360px;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav {
+    background-color: #64b5f6 !important;
+}
+
+@media (min-width:992px) {
+    main {
+        height: calc(100% - 64px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .row,
+    .conteudo {
+        height: 100% !important;
+    }
+
+    .brand-logo {
+        width: 350px !important;
+    }
+
+    #iconLogo {
+        margin-top: 1.4px;
+        margin-left: 25px;
+        font-size: xx-large;
+    }
+
+    .conteudo {
+        padding: 50px !important;
+    }
+
+    #botoes {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width:601px) and (max-width:991px) {
+    main {
+        height: calc(100% - 64px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .row,
+    .conteudo {
+        height: auto !important;
+    }
+
+    .brand-logo {
+        width: 350px !important;
+    }
+
+    #iconLogo {
+        margin-top: 1.4px;
+        margin-left: 25px;
+        font-size: xx-large;
+    }
+
+    .conteudo {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    #botoes {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:600px) {
+    main {
+        height: calc(100% - 56px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .row,
+    .conteudo {
+        height: auto !important;
+    }
+
+    .brand-logo {
+        width: 325px !important;
+    }
+
+    #iconLogo {
+        margin-left: 35px;
+        font-size: xx-large;
+    }
+
+    .conteudo {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #botoes {
+        margin-left: 25px;
+    }
+}
+
+.conteudoInterno {
+    height: 100%;
+    overflow: auto;
+}
+
+.titulo {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+}
+
+#tituloBotoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes>button {
+    margin-top: 2px;
+    background-color: #64b5f6 !important;
+}
+
+#pizzaContainer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#saldo {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #90caf9;
+}
+
+#dataInputBarra {
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#botaoBuscarBarra {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#liInput>form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#liInput>form>a {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+#liInput>form>a>i {
+    margin: 0;
+    padding: 0;
+}
+
+#dataInputMobile {
+    width: 70%;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #000000;
+}
+
+.modal-content {
+    height: auto !important;
+}
+
+.modal-fixed-footer>h3 {
+    margin-top: 20px !important;
+    margin-bottom: 25px !important;
+}
